@@ -4,7 +4,6 @@ use std::error::Error;
 
 #[derive(Deserialize)]
 struct BinancePrice {
-    symbol: String,
     price: String,
 }
 
